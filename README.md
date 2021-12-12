@@ -10,7 +10,7 @@ Clone this repo and run `npm i` and then `npm start`
     * Dashboard.js
     * Chart.js
     * Total.js
-    * AddCar.js
+    * MDTPContainers.js
 
 * Also, make sure to run the app and go to the dashboard page to see these components in action. Keep in mind that there are things that aren't connected yet. 
 
@@ -26,7 +26,7 @@ Clone this repo and run `npm i` and then `npm start`
 
 * We will be dispatching this action from the `AddCar` component so let's go look at that now. Notice there is a form that is collecting the input data. It happens in a dialog box that appears when you click the "Add Car" button on the dashboard page.
 
-* We need to create a container for this component so that we can hook it up to Redux. Create a file called `AddCar.js` under the containers folder.
+* We need to create a container for this component so that we can hook it up to Redux. Create a file called `MDTPContainers.js` under the containers folder.
 
 * Import the `{ connect }` function at the top of the file like we have in the other containers. Then, import the `AddCar` component from the components file. We also need to import the action so import `{ addCar }` from the "redux/actions" file.
 
